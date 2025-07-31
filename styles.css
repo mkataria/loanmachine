@@ -355,9 +355,17 @@ body {
     text-align: left;
 }
 
+.stat > div {
+    flex: 1;
+    min-width: 0;
+}
+
 .stat i {
     font-size: 2.5rem;
     color: #2563eb;
+    width: 50px;
+    text-align: center;
+    flex-shrink: 0;
 }
 
 .stat-number {
