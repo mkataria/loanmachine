@@ -350,8 +350,9 @@ body {
 
 .stat {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
+    text-align: left;
 }
 
 .stat i {
@@ -364,6 +365,7 @@ body {
     font-weight: 700;
     color: #1e293b;
     display: block;
+    text-align: left;
 }
 
 /* Text-based stats styling */
@@ -388,6 +390,7 @@ body {
 .stat-label {
     color: #64748b;
     font-size: 0.9rem;
+    text-align: left;
 }
 
 .about-image {
