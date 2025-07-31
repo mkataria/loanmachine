@@ -366,6 +366,17 @@ body {
     display: block;
 }
 
+/* Text-based stats styling */
+.stat-text {
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+}
+
+.stat-text-small {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+}
+
 .stat-label {
     color: #64748b;
     font-size: 0.9rem;

@@ -1,0 +1,14 @@
+# Quick Update Commands for LoanMachine Website
+
+# After making changes to your files, run these commands:
+
+# 1. Add all changes
+git add .
+
+# 2. Commit with a message
+git commit -m "Update website content"
+
+# 3. Push to GitHub (automatically updates the live site)
+git push origin main
+
+# Your live website will update automatically in 1-2 minutes!

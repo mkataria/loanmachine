@@ -51,20 +51,30 @@ function animateNumbers() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const target = entry.target;
-                const finalNumber = target.textContent;
-                const number = parseInt(finalNumber.replace(/\D/g, ''));
-                const suffix = finalNumber.replace(/[\d]/g, '');
+                const finalText = target.textContent;
                 
-                let current = 0;
-                const increment = number / 100;
-                const timer = setInterval(() => {
-                    current += increment;
-                    if (current >= number) {
-                        current = number;
-                        clearInterval(timer);
-                    }
-                    target.textContent = Math.floor(current) + suffix;
-                }, 20);
+                // Check if the content contains numbers to animate
+                const hasNumbers = /\d/.test(finalText);
+                
+                if (hasNumbers) {
+                    // Animate only if it contains numbers
+                    const number = parseInt(finalText.replace(/\D/g, ''));
+                    const suffix = finalText.replace(/[\d]/g, '');
+                    
+                    let current = 0;
+                    const increment = number / 100;
+                    const timer = setInterval(() => {
+                        current += increment;
+                        if (current >= number) {
+                            current = number;
+                            clearInterval(timer);
+                        }
+                        target.textContent = Math.floor(current) + suffix;
+                    }, 20);
+                } else {
+                    // For text-only content, just keep the original text
+                    target.textContent = finalText;
+                }
                 
                 observer.unobserve(target);
             }
