@@ -370,10 +370,18 @@ body {
 .stat-text {
     font-size: 1.4rem !important;
     font-weight: 600 !important;
+    color: #1e293b;
+    display: block;
 }
 
 .stat-text-small {
     font-size: 1.1rem !important;
+    font-weight: 600 !important;
+}
+
+/* No animation class */
+.no-animate {
+    font-size: 1.2rem !important;
     font-weight: 600 !important;
 }
 

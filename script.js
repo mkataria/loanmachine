@@ -51,6 +51,13 @@ function animateNumbers() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const target = entry.target;
+                
+                // Skip animation for elements with 'no-animate' class
+                if (target.classList.contains('no-animate')) {
+                    observer.unobserve(target);
+                    return;
+                }
+                
                 const finalText = target.textContent;
                 
                 // Check if the content contains numbers to animate
