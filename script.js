@@ -309,8 +309,8 @@ function validateForm(formElement) {
 console.log(`
 🏦 Welcome to LoanMachine!
 💰 Your trusted financial partner
-📞 Contact Sundip Singh: +91 9205557971
-📧 Email: Sundip.051@gmail.com
+📞 Contact Sundip: +91 9910353397
+📧 Email: contact@loanmachine.co.in
 💬 WhatsApp: Available
 
 Ready to help you with all your loan needs!

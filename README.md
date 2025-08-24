@@ -27,9 +27,9 @@ A professional static website for loan and insurance services, designed for audi
 - **Motor Loan** - Two-wheeler and commercial vehicle financing
 
 ### 📞 Contact Information
-- **Expert**: Sundip Singh
-- **Email**: Sundip.051@gmail.com
-- **Phone**: +91 9205557971
+- **Expert**: Sundip
+- **Email**: contact@loanmachine.co.in
+- **Phone**: +91 9910353397
 - **WhatsApp**: Available for instant communication
 
 ### 🚀 Technical Features
